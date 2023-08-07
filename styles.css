@@ -9,7 +9,6 @@ body {
     margin: 100px;
     padding: 25px;
     border: 1px solid black
-
 }
 
 /* headers different colors */
@@ -23,4 +22,10 @@ body {
     background-color: lightblue;
 }
 
-#forcast {}
+#forecast {
+    background-color: lightgreen
+}
+
+#humidity {
+    background-color: lightyellow
+}
