@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: silver
+}
+
+.data-box {
+    margin: 100px;
+    padding: 25px;
+    border: 1px solid black
+
+}
+
+/* headers different colors */
+
+#high {
+    background-color: lightcoral;
+}
+
+
+#low {
+    background-color: lightblue;
+}
+
+#forcast {}
