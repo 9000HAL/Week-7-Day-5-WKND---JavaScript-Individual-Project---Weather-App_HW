@@ -10,14 +10,24 @@
 
 <body>
     <!----search bar and buttons-->
-    <input type="text" id="cityInput" placeholder="Enter Name Of A City Only Please"
+    <input type="text" id="cityInput" placeholder="Enter City Name Only"
+    <button onClick="fetchWeather()">Find My City Weather!</button>
 
+    <!---display city name-->
+<i><h1 id="cityName"></h1></i>
+
+<!---weather data display-->
+<div class="weather-data">
+    <div id="high" class="data-box">High: <span></span></div>
+    <div id="low" class="data-box">Low: <span></span></div>
+    <div id="forecast" class="data-box">Forecast: <span></span></div>
+    <div id="humidity" class="data-box">Humidity: <span></span></div>
+</div>
 
 
 </body>
 
-
-
+</html>
 
 
 
